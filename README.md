@@ -1,21 +1,11 @@
 # SomethingToMeasure
 
-**TODO: Add description**
+This is a minimal GenServer that is set to log and send data to OpenTelemetry.
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `something_to_measure` to your list of dependencies in `mix.exs`:
+To start the app up:
+`iex -S mix`
 
-```elixir
-def deps do
-  [
-    {:something_to_measure, "~> 0.1.0"}
-  ]
-end
-```
+Within iex there is a simple function that will hit the GenServer:
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/something_to_measure>.
-
+SomethingToMeasure.Worker.action
